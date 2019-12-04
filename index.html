@@ -111,23 +111,42 @@
 <ul>
 <li>When you find the address containing an open FTP server, simply type ftp and then the name of the IP Address you wish to connect with.</li>
 <li>Looks like you need a username and password to enter the FTP connection. To solve this riddle, search &#34;ftp&#34; inside the man page for nmap and read very carefully for the clue you&#39;re searching for.</li>
-<li>Inside the ftp connection, you can use ls command to see the contents of the server. Type &#34;help&#34; to view the other commands you have access to. Do any of them look useful for getting the file from 10.0.0.16 to your current address?</li>
+<li>Inside the ftp connection, you can use the list command to see the contents of the server. Type &#34;help&#34; to view the other commands you have access to. Do any of them look useful for getting the file from 10.0.0.16 to your current address?</li>
 <li>After getting the file from the FTP server, try viewing the file contents with cat or vim. Within this file is a password you will need to run the program decryptpass.</li>
 </ul>
 <p>The decryptpass file is <a href="https://en.wikipedia.org/wiki/Encryption" target="_blank">encrypted.</a> Run the file like this:<br><img alt="alt-text-here" src="img/d28a8ca19c489b1a.png"></p>
-<p>Use the IP address and password you received from the FTP server to get to the Fifth Stop.</p>
+<p>Use the IP address you received from the FTP server and the password you recieved from running decryptpass to get to the Fifth Stop.</p>
 <p class="image-container"><img alt="alt-text-here" src="img/62321fa3a84c57d.png"></p>
 
 
       </google-codelab-step>
     
-      <google-codelab-step label="Fifth Stop" duration="2">
-        
+      <google-codelab-step label="Fifth Stop" duration="5">
+        <h2 is-upgraded>Can you decode betcha_cant_read_me?</h2>
+<p>Start by looking at the useful commands. There&#39;s one you haven&#39;t seen in this excercise before.</p>
+<p>Use that command to perform an in depth search of the man pages using a keyword that will help you decode the file.</p>
+<p>(HINT: try a few of the different commands returned in your search. Read their man pages carefully and see if any flags or options will be helpful. You will know you successfully decoded betcha_cant_read_me when you see the directions to the next stop printed on your console.)</p>
+<p class="image-container"><img alt="alt-text-here" src="img/62321fa3a84c57d.png"></p>
+
 
       </google-codelab-step>
     
       <google-codelab-step label="Satan&#39;s Palace" duration="2">
-        
+        <h2 is-upgraded>Escape Satan&#39;s Palace to Become the Ultimate SSH Master</h2>
+<p>During your nmap scans, do you remember seeing any hosts that looked .... sinister?</p>
+<p>If you don&#39;t recall, perform another scan. If you&#39;re brave, try using ssh and with a port specification to enter the palace.</p>
+<p>Let&#39;s go back to the SSH man page.</p>
+<p class="image-container"><img alt="alt-text-here" src="img/add32862cb8801e7.png"></p>
+<p>Look carefully at all the flags and options under Synopsis. The last two are pertinent to our task.</p>
+<p>This is a good opportunity to prove you understand how to use flags and options found on the man pages.</p>
+<p class="image-container"><img alt="alt-text-here" src="img/3583f4755f63810b.png"></p>
+<p>So you found the secret..... It&#39;s gibberish. It doesn&#39;t make any sense.<br>Perhaps we have to decode again?</p>
+<p>Let&#39;s consider a classic form of ciphering.</p>
+<p><a href="https://en.wikipedia.org/wiki/Caesar_cipher" target="_blank">Caesear Cipher</a></p>
+<p>It would be an awful lot of work to figure out what rotation this has been encrypted with. Let&#39;s just use one of the many decyphering tools online.</p>
+<p><a href="https://md5decrypt.net/en/Caesar/" target="_blank">Try this one.</a></p>
+<p>Once your SSH Master title has been earned, submit your proof inside your browser opened to cloud.edurange.org!</p>
+
 
       </google-codelab-step>
     
