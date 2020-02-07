@@ -155,12 +155,12 @@ Again, scan the local network using nmap.
 
 - Inside the ftp connection, you can use the list command to see the contents of the server. Type "help" to view the other commands you have access to. Do any of them look useful for getting the file from 10.0.0.16 to your current address?
 
-- After getting the file from the FTP server, try viewing the file contents with cat or vim. Within this file is a password you will need to run the program decryptpass.
+- After getting the file from the FTP server, try viewing the file contents with cat or vim. Within this file is a password you will need to run the program decryptpassword.
 
-The decryptpass file is [encrypted.](https://en.wikipedia.org/wiki/Encryption) Run the file like this:
-![alt-text-here](assets/decrypt.png)
+The decryptpassword file is [encrypted.](https://en.wikipedia.org/wiki/Encryption) Run the file like this:
+![alt-text-here](assets/decryptpassword.png)
 
-Use the IP address you received from the FTP server and the password you recieved from running decryptpass to get to the Fifth Stop.
+Use the IP address you received from the FTP server and the password you recieved from running decryptpassword to get to the Fifth Stop.
 
 ![alt-text-here](assets/key.png)
 
@@ -171,7 +171,7 @@ Duration: 5
 
 ### Can you decode betcha_cant_read_me?
 
-Start by looking at the useful commands. There's one you haven't seen in this excercise before.
+Start by looking at the helpful commands. There's one you haven't seen in this exercise before.
 
 Use that command to perform an in depth search of the man pages using a keyword that will help you decode the file.
 
@@ -210,7 +210,6 @@ Let's consider a classic form of ciphering.
 
 It would be an awful lot of work to figure out what rotation this has been encrypted with. Let's just use one of the many decyphering tools online.
 
-[Try this one.](https://md5decrypt.net/en/Caesar/)
+[Try this one.](https://cryptii.com/pipes/caesar-cipher)
 
 Once your SSH Master title has been earned, submit your proof inside your browser opened to cloud.edurange.org!
-
